@@ -34,6 +34,12 @@ h3 {
   font-family: var(--main-font), sans-serif;
   font-size: 22px;
 }
+h4 {
+  color: var(--font-color);
+  font-family: var(--main-font), sans-serif;
+  font-size: 18px;
+  display: inline;
+}
 span {
   font-family: var(--main-font), sans-serif;
   color: var(--font-color);
@@ -41,14 +47,29 @@ span {
 p {
   font-family: 'PT Mono', monospace;
   color: var(--font-color);
-  font-size: 20px;
+  font-size: 18px;
+}
+p1 {
+  font-family: 'Chivo', sans-serif;
+  color: var(--font-color);
+  font-size: 18px;
 }
 a {
   font-family: 'PT Mono', monospace;
   text-decoration: none;
   color: #5fb7ca;
   transition: 0.3s;
+  font-size: 18px
 }
+
+b {
+  font-family: 'PT Mono', monospace;
+  text-decoration: none;
+  color: #303030;
+  transition: 0.3s;
+}
+
+
 a:hover {
   color: slategrey;
 }
@@ -56,6 +77,7 @@ mark {
   background-color: #ffc701;
   color: black;
 }
+
 
 #navbar {
   background-color: var(--color-background);
@@ -84,11 +106,13 @@ mark {
   width: 82%;
   height: 100vh;
 }
+
 #about-header {
   color: var(--font-color);
-  font-size: 68px;
+  font-size: 66px;
   letter-spacing: 1px;
 }
+
 #about-content{
   color: var(--font-color);
   font-size: 20px;
@@ -165,7 +189,7 @@ mark {
 
 /* CLOSING */
 #closing {
-  margin: 200px 0 200px 0;
+  margin: 100px 0 100px 0;
 }
 #closing-title {
   font-size: 50px;
@@ -174,13 +198,14 @@ mark {
 
 /* footer */
 #footer {
-  background-color: #dcdbe1;
+  background-color: #E8E8E8;
   padding: 1px;
   padding-left: 30px;
   text-align:left;
+
 }
 #footer p{
-  font-size: 17px;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 720px){
@@ -233,6 +258,7 @@ mark {
     padding: 30px;
   }
 
+
   #date-answer-box {
     text-align: center;
   }
@@ -248,3 +274,5 @@ mark {
   .submit-button-text {
     padding: 10px;
   }
+
+
