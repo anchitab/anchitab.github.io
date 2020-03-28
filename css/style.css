@@ -40,7 +40,7 @@ span {
 }
 p {
   font-family: 'PT Mono', monospace;
-  color: var(--font-color);
+  color: #5fb7ca;
   font-size: 20px;
 }
 a {
