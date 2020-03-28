@@ -44,7 +44,7 @@ p {
   font-size: 20px;
 }
 a {
-  font-family: var(--main-font), sans-serif;
+  font-family: 'PT Mono', monospace;
   text-decoration: none;
   color: #423C80;
   transition: 0.3s;
