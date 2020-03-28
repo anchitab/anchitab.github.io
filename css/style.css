@@ -39,7 +39,7 @@ span {
   color: var(--font-color);
 }
 p {
-  font-family: var(--main-font), sans-serif;
+  font-family: 'PT Mono', monospace;
   color: var(--font-color);
   font-size: 20px;
 }
