@@ -11,7 +11,9 @@ nav ul {
 nav li {
   display: inline;
 }
-
+img {
+  border-radius: 8px;
+}
 body {
   /*linear-gradient(90deg, hsl(10, 100%, 70%), rgb(204,204,255));*/
   background-color: var(--color-body);
@@ -102,14 +104,14 @@ mark {
 #about {
   background-color: #F4F6F4;
   font-size: 18px;
-  padding: 120px 140px 0px 120px;
+  padding: 50px 120px 0px 120px;
   width: 82%;
   height: 100vh;
 }
 
 #about-header {
   color: var(--font-color);
-  font-size: 66px;
+  font-size: 60px;
   letter-spacing: 1px;
 }
 
