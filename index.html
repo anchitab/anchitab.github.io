@@ -1,8 +1,10 @@
 <!DOCTYPE html> <!-- Tells the browser what HTML version the page is written in -->
 <html>
 <head> <!-- Includes a title for the document, scripts, styles, meta information, and more -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Poppins|Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
     <title>Anchita Bora - SWE + PM </title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" href="favicon.ico">
@@ -14,7 +16,7 @@
         <div class="nav-items">
             <ul>
                 <li class="nav-link">
-                    <a href="about.html">About</a>
+                    <a href="#bio">About</a>
                 </li>
                 <li class="nav-link">
                     <a href="#projects">Projects</a>
@@ -23,7 +25,7 @@
                     <a href="#contact">Contact</a>
                   </li>
                 <li class="nav-link">
-                    <a href="#contact">Resume</a>
+                    <a href="#fun-data">+</a>
                 </li>
             </ul>
         </div>
@@ -37,27 +39,78 @@
             <div id="about-content">
                 <p>
                     <br><br>
-                    I'm a first year undergraduate student at UC Riverside studying <mark>Computer Science</mark>, interested in machine learning and product mananagement.
+                    I'm a sophomore undergraduate student at UC Riverside studying <mark>Computer Science</mark>, interested in the intersection of technology, data, & product
                     <br><br>
-                    I am currently President of <a href="https://winc.cs.ucr.edu/#home"  target="_blank">UCR Women in Computing</a>.
+                    I am currently President of <a href="https://winc.cs.ucr.edu/#home"  target="_blank">UCR Women in Computing</a> and a <a href="https://rewritingthecode.org/">Rewriting the Code</a> fellow for the 2020-21 year!
                     <br><br>
-                    Let's chat! Please feel free to shoot me a LinkedIn message or an email!
+                    <a href="#contact">Let's chat!</a>Please feel free to shoot me a LinkedIn message or an email!
+                    <br><br>
                 </p>
             </div>
         </section>
 
+                
+        <!-- bio section -->
+        <section class="main-section" id="bio">
+            <header class="main-header">
+                <span><strong>about</strong> me</span>
+            </header>
+            <div class="main-content">
+                <div id="projects-fcc">
+                    <ul>
+                        <div id="photo">
+                            <img id="profile" src="sitepic.jpg" alt="me pic">
+                        </div>                        
+                        <br>
+                        <br>
+                        <br>
+            <p> I'm an aspiring software engineer/product manager studying computer science in sunny southern California @UC Riverside
+                                <br>
+                                <br>
+                                <p> My tech journey started in high school at a summer program where I was introduced to web dev, and since then, I have continued to learn new technologies, languages, and frameworks and am excited to expand on my current knowledge!
+                                <br>
+                                <p> I'm passionate about <strong>diversity in tech</strong>, especially empowering women in this field. I am glad to be a part of communties like Rewriting the Code and WinC. 
+                                <br>
+                                <br>
+                                <p> In my free time, you can find me at my local spin studio, eating good food, or traveling!
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
 
         <!-- projects section -->
         <section class="main-section" id="projects">
             <header class="main-header">
-                <span><strong>projects</strong> I've done so far</span>
+                <span><strong>projects</strong> I've done so far 💻 </span>
             </header>
             <div class="main-content">
                 <div id="projects-fcc">
-                    <h3>projects:</h3>
                     <ul>
                         <li>
-                            <p><a class="project-link" href="https://devpost.com/software/budget-babe"  target="_blank">Budget Babe Chrome Extension</a></p>
+                            <p><a class="project-link" href="https://github.com/anchitab/smart-wardrobe"  target="_blank">Smart Wardrobe</a></p>
+                            <p> An automated closet inspired from Cher's iconic closet from <i>Clueless</i>  built with python PIL and tK. </p>
+                            <button class="button">python</button>
+                            <button class="button">tkinter</button>
+                            <button class="button">PIL</button>
+                        </li>
+                        <li>
+                            <p><a class="project-link" href="https://devpost.com/software/budget-babe"  target="_blank">Budget Babe</a></p>
+                            <p> A Google Chrome extension that allows user to set a budget, input money spent, adds costs of items on a webpage, and displays  otifications when near budget limit.</p>
+                            <button class="button">html</button>
+                            <button class="button">css</button>
+                            <button class="button">javascript</button>
+                            <button class="button">jquery</button>
+                            <button class="button">json</button>
+                        </li>
+                        <li>
+                            <p><a class="project-link" href="https://github.com/anchitab"  target="_blank">Twitter Feature: Splashtags</a></p>
+                            <p> Animated hashtags in Tweet "details". Developed for Twitter's #EarlyBird program.</p>
+                            <button class="button">html</button>
+                            <button class="button">css</button>
+                            <button class="button">json</button>
+                            <button class="button">jquery</button>
+                            <button class="button">ajax</button>
                         </li>
 
                     </ul>
@@ -71,18 +124,24 @@
                 <span>let's <strong>chat</strong> 💬</span>
             </header>
             <div id="contact-content">
-                <div class="social-media">
-                    <div class="social-media-section">
-                        <a href="mailto:abora003@ucr.edu" target = "_blank">abora003@ucr.edu</a>
-                    </div>
-                    <br>
-                    <div class="social-media-section">
-                        <a href="https://www.linkedin.com/in/anchitabora/" target = "_blank">
-                            <img src="linkedin.png" class="icon" alt="linkedin">
-                        </a>
-                        <p class="social-media-label">anchitabora</p>
-                    </div>
-                </div>
+                <!-- <div id="socials"> -->
+					<a href="mailto:abora003@ucr.edu">
+						<i class="fas fa-envelope">
+						</i>
+                    </a>
+					<a href="https://www.linkedin.com/in/anchitab/">
+						<i class="fab fa-linkedin-in"></i>
+                    </a>
+					<a href="https://github.com/anchitab">
+						<i class="fab fa-github"></i>
+                    </a>
+					<a href="https://medium.com/@anchita.bora">
+						<i class="fab fa-medium-m"></i>
+                    </a>
+					<a href="https://twitter.com/anchita_bora">
+						<i class="fab fa-twitter"></i>
+					</a>
+                <!-- </div> -->
             </div>
         </section>
 
