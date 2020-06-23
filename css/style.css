@@ -3,6 +3,10 @@
   --color-background: #303030;
   --color-body: white;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -49,7 +53,7 @@ span {
 p {
   font-family: 'PT Mono', monospace;
   color: var(--font-color);
-  font-size: 18px;
+  font-size: 16px;
 }
 p1 {
   font-family: 'Chivo', sans-serif;
@@ -66,9 +70,8 @@ a {
 
 b {
   font-family: 'PT Mono', monospace;
-  text-decoration: none;
-  color: #303030;
-  transition: 0.3s;
+  color: var(--font-color);
+  font-size: 16px;
 }
 
 
@@ -107,12 +110,14 @@ mark {
   padding: 50px 120px 0px 120px;
   width: 82%;
   height: 100vh;
+  margin-right: 0;
 }
 
 #about-header {
   color: var(--font-color);
   font-size: 60px;
   letter-spacing: 1px;
+  margin-right: 0;
 }
 
 #about-content{
@@ -120,6 +125,22 @@ mark {
   font-size: 20px;
   width: 83%;
   line-height: 33px;
+  margin-right: 0;
+}
+
+/*photo*/
+#photo {
+  margin: 3rem 3rem 0 3rem;
+  flex: 1 1 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile {
+  border-radius: 50%;
+  width: 35%;
+  border: 4px solid #5fb7ca;
 }
 
 /* main content */
@@ -135,7 +156,7 @@ mark {
   padding-top: 60px;
 }
 .main-content {
-  background-color: #E8E8E8;
+  background-color: #F4F6F4;
   padding: 50px 120px;
   margin-bottom: 120px;
   max-width: 65%;
@@ -146,14 +167,66 @@ mark {
 }
 
 
-/* projects */
-#projects {
+/*experience*/
+#experience {
+  max-width:70%;
+  margin-left:auto; margin-right:0;
+
 }
+#experience-header {
+  color: var(--font-color);
+  font-size: 47px;
+  padding-right: 120px;
+  text-align: left;
+}
+#experience-subheading {
+  text-align: left;
+  align-items: left;
+  display:flex;
+  background-color: #F4F6F4;
+  padding: 50px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+}
+#experience-timeline {
+  margin: 80px auto;
+  width: 700px;
+  border-left: 2px solid #ccc;
+  padding: 0 20px 0 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#experience-content { 
+  text-align: left;
+  align-items: left;
+  display:flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  background-color: #F4F6F4;
+  padding: 50px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+  font-size: medium;
+}
+
+/* projects */
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
 
 /* contact */
 #contact {
   max-width:50%;
-  margin-left:auto; margin-right:0;
+  margin-left:auto; 
+  margin-right:0;
 
 }
 #contact-header {
@@ -164,30 +237,19 @@ mark {
 }
 #contact-content {
   display:flex;
-  justify-content: flex-end;
-  justify-content: space-around;
-  background-color: #E8E8E8;
+  justify-content: space-between;
+  background-color: #F4F6F4;
   padding: 50px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19);
 }
-.social-media-label {
-  letter-spacing: .3px;
-  font-size:20px;
-}
-.social-media-section {
+#socials {
+  margin: 2rem 2rem 0 2rem;
   display: flex;
-  flex: row;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2rem;
 }
-.icon {
-  padding:10px;
-  padding-right:12px;
-  width: 38px;
-  height: 38px;
-}
-.icon:hover {
-  transform: scale(1.03);
-}
+
 
 /* CLOSING */
 #closing {
@@ -279,3 +341,5 @@ mark {
 
 
 
+
+  /** END ETC **/
