@@ -1,2 +1,2 @@
 # anchitab.github.io
-personal website
+personal website made by me, for me.
